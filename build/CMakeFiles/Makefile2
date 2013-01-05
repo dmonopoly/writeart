@@ -91,8 +91,8 @@ clean: CMakeFiles/converter_lib.dir/clean
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: CMakeFiles/standard_lib.dir/all
 CMakeFiles/main.dir/all: CMakeFiles/converter_lib.dir/all
+CMakeFiles/main.dir/all: CMakeFiles/standard_lib.dir/all
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/build/CMakeFiles  4
@@ -127,8 +127,8 @@ clean: CMakeFiles/main.dir/clean
 # Target rules for target CMakeFiles/runUnitTests.dir
 
 # All Build rule for target.
-CMakeFiles/runUnitTests.dir/all: CMakeFiles/standard_lib.dir/all
 CMakeFiles/runUnitTests.dir/all: CMakeFiles/converter_lib.dir/all
+CMakeFiles/runUnitTests.dir/all: CMakeFiles/standard_lib.dir/all
 CMakeFiles/runUnitTests.dir/all: lib/gtest-1.6.0/CMakeFiles/gtest.dir/all
 CMakeFiles/runUnitTests.dir/all: lib/gtest-1.6.0/CMakeFiles/gtest_main.dir/all
 	$(MAKE) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/depend

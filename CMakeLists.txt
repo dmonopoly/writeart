@@ -7,7 +7,7 @@ option(TEST "Build all tests." OFF) # makes boolean 'TEST' available
 set(PROJECT_NAME MyProject)
 project(${PROJECT_NAME})
 
-#set(CMAKE_CXX_FLAGS "-g -Wall")
+set(CMAKE_CXX_FLAGS "-g") # -Wall")
 
 #set(COMMON_INCLUDES ${PROJECT_SOURCE_DIR}/include) if you want your own include/ directory
 # then you can do include_directories(${COMMON_INCLUDES}) in other cmakelists.txt files

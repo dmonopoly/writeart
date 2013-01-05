@@ -12,6 +12,7 @@
 #include "Standard.h"
 
 #define NEW_LINE_STRING "<br>\n"
+#define LIMIT 100000 // limit to number of words; allows check for infinite while loop
 
 class Converter {
 	friend class ConverterTest; // needed only for FRIEND_TESTs that use TEST_F (with test fixture)

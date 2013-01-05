@@ -22,21 +22,20 @@ void Converter::convert(string filename) {
     if (fin.fail())
     	cout << "No file present" << endl;
     else {
-    	fin.peek(); // Important for peeking at the file so !fin.eof works
+    	fin.peek(); // Important for peeking at the file so fin.eof works
 		if (fin.eof()) { // ensure the file is not empty
 			cout << "File empty." << endl;
 		} else {
 			string word;
-			fin >> word;
 			int safe = 0;
-			while (!fin.eof()) {
+			while (fin >> word) { // clean way to read
 				tokens.push_back(word);
+				cout << word << endl;
 				if (fin.peek() == '\n')
 					tokens.push_back(NEW_LINE_STRING);
-				fin >> word;
-
+				
 				safe++;
-				if (safe == 10000) {
+				if (safe == LIMIT) {
 					cout << "Avoided infinite loop. Check format of input file.\n";
 					break;
 				}
@@ -66,7 +65,6 @@ void Converter::convert(string filename) {
 
 // Essential method that actually changes each token
 void Converter::alterTokens(vector<string> &tokens) {
-	int size;
 	for (int i = 0; i < tokens.size(); i++) {
 		alter(tokens[i]);
 	}
