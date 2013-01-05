@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/gtest-1.6.0/include/gtest/gtest_prod.h
+
+/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Converter.cpp
+Converter.h
+/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Converter.h
+
+/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Converter.h
+gtest/gtest_prod.h
+/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/gtest/gtest_prod.h
+Standard.h
+/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Standard.h
+
+/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Standard.h
+iostream
+-
+stdio.h
+-
+iomanip
+-
+sstream
+-
+fstream
+-
+vector
+-
+algorithm
+-
+

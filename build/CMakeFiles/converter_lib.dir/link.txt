@@ -1,0 +1,2 @@
+/usr/bin/ar cr libconverter_lib.a  CMakeFiles/converter_lib.dir/Converter.cpp.o
+/usr/bin/ranlib libconverter_lib.a

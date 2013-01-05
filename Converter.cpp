@@ -20,7 +20,7 @@ void Converter::convert(string filename) {
     ifstream fin;
     fin.open(filename.c_str());
     if (fin.fail())
-    	cout << "Invalid" << endl;
+    	cout << "No file present" << endl;
     else {
     	fin.peek(); // Important for peeking at the file so !fin.eof works
 		if (fin.eof()) { // ensure the file is not empty
@@ -65,11 +65,13 @@ void Converter::alterTokens(vector<string> &tokens) {
 	}
 }
 
+// pre: accepts a single token (word), like "L25ife20"
+// post: removes numbers and surrounds with appropriate span tags
 void Converter::alter(string &str) {
 	int a = 0;
 	int i = 0;
 	int size;
-	while (i < str.size()) {
+	while (i < str.size()) { // stri.size() shrinks a bit from deleteAndGetNum, i increases a lot in surround()
 		if (isdigit(str.at(i))) { 
 			size = deleteAndGetNum(str, i); // get combined digits as a number
 			surround(str,a,i,size); // changes i

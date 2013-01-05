@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/main.dir/Main.cpp.o  -o main  libstandard_lib.a libconverter_lib.a 
