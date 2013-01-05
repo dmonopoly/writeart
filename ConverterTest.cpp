@@ -56,6 +56,12 @@ TEST(SpecificConverterTest, Surround) { // shows how to test a private method wi
     EXPECT_EQ(41, i); // index 41 is right at 'f'
 }
 
+// TEST_F(ConverterTest, DetectNewLine) {
+// 	string s = "grow\nup";
+// 	conv.alter(s);
+	
+// }
+
 // auto included by gtest_main in CMakeLists.txt
 // int main(int argc, char **argv) {
 //   ::testing::InitGoogleTest(&argc, argv);

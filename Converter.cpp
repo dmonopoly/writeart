@@ -31,7 +31,10 @@ void Converter::convert(string filename) {
 			int safe = 0;
 			while (!fin.eof()) {
 				tokens.push_back(word);
+				if (fin.peek() == '\n')
+					tokens.push_back(NEW_LINE_STRING);
 				fin >> word;
+
 				safe++;
 				if (safe == 10000) {
 					cout << "Avoided infinite loop. Check format of input file.\n";
@@ -52,7 +55,11 @@ void Converter::convert(string filename) {
 	string outputFile = filename.append(".html");
 	ofstream fout(outputFile.c_str());
 	for (int i = 0; i < tokens.size(); i++) {
-		fout << tokens[i] << " ";
+		if (tokens[i] == NEW_LINE_STRING) {
+			fout << tokens[i]; // no space after token if token is NEW_LINE_STRING is next
+		} else {
+			fout << tokens[i] << " ";
+		}
 	}
 
 }
@@ -67,17 +74,20 @@ void Converter::alterTokens(vector<string> &tokens) {
 
 // pre: accepts a single token (word), like "L25ife20"
 // post: removes numbers and surrounds with appropriate span tags
+// sometimes gets the token NEW_LINE_STRING which we can immediately skip for speed
 void Converter::alter(string &str) {
-	int a = 0;
-	int i = 0;
-	int size;
-	while (i < str.size()) { // stri.size() shrinks a bit from deleteAndGetNum, i increases a lot in surround()
-		if (isdigit(str.at(i))) { 
-			size = deleteAndGetNum(str, i); // get combined digits as a number
-			surround(str,a,i,size); // changes i
-			a = i;
-		} else {
-			i++;
+	if (str != NEW_LINE_STRING) {
+		int a = 0;
+		int i = 0;
+		int size;
+		while (i < str.size()) { // stri.size() shrinks a bit from deleteAndGetNum, i increases a lot in surround()
+			if (isdigit(str.at(i))) { 
+				size = deleteAndGetNum(str, i); // get combined digits as a number
+				surround(str,a,i,size); // changes i
+				a = i;
+			} else {
+				i++;
+			}
 		}
 	}
 }

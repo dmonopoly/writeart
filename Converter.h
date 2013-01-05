@@ -11,6 +11,8 @@
 #include "gtest/gtest_prod.h" // to allow testing private members
 #include "Standard.h"
 
+#define NEW_LINE_STRING "<br>\n"
+
 class Converter {
 	friend class ConverterTest; // needed only for FRIEND_TESTs that use TEST_F (with test fixture)
 			// can be public, private, whatever
@@ -19,7 +21,7 @@ public:
 	Converter();
     virtual ~Converter();
     
-    void convert(string filename);
+    void convert(const string filename);
 
 	void alter(string &s);
 
@@ -32,6 +34,8 @@ private:
 	// To test private methods - must have FRIEND_TEST
 	FRIEND_TEST(ConverterTest, IntExtraction); // to test private method with test fixture
   	FRIEND_TEST(SpecificConverterTest, Surround); // to test private method without test fixture
+
+  	FRIEND_TEST(ConverterTest, DetectNewLine);
 };
 
 #endif /* CONVERTER_H_ */
