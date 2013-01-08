@@ -26,13 +26,15 @@ void Converter::convert(string filename) {
 		if (fin.eof()) { // ensure the file is not empty
 			cout << "File empty." << endl;
 		} else {
-			string word;
+			string word; char c;
 			int safe = 0;
-			while (fin >> word) { // clean way to read
+			while (fin >> word) { // clean way to read; space separated
 				tokens.push_back(word);
 				cout << word << endl;
-				if (fin.peek() == '\n')
+				while (fin.peek() == '\n') {
 					tokens.push_back(NEW_LINE_STRING);
+					c = fin.get();
+				}
 				
 				safe++;
 				if (safe == LIMIT) {
