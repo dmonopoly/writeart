@@ -49,37 +49,37 @@ include CMakeFiles/converter_lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/converter_lib.dir/flags.make
 
-CMakeFiles/converter_lib.dir/Converter.cpp.o: CMakeFiles/converter_lib.dir/flags.make
-CMakeFiles/converter_lib.dir/Converter.cpp.o: ../Converter.cpp
+CMakeFiles/converter_lib.dir/src/Converter.cpp.o: CMakeFiles/converter_lib.dir/flags.make
+CMakeFiles/converter_lib.dir/src/Converter.cpp.o: ../src/Converter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/converter_lib.dir/Converter.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/converter_lib.dir/Converter.cpp.o -c /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/converter_lib.dir/src/Converter.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/converter_lib.dir/src/Converter.cpp.o -c /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/src/Converter.cpp
 
-CMakeFiles/converter_lib.dir/Converter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/converter_lib.dir/Converter.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Converter.cpp > CMakeFiles/converter_lib.dir/Converter.cpp.i
+CMakeFiles/converter_lib.dir/src/Converter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/converter_lib.dir/src/Converter.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/src/Converter.cpp > CMakeFiles/converter_lib.dir/src/Converter.cpp.i
 
-CMakeFiles/converter_lib.dir/Converter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/converter_lib.dir/Converter.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Converter.cpp -o CMakeFiles/converter_lib.dir/Converter.cpp.s
+CMakeFiles/converter_lib.dir/src/Converter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/converter_lib.dir/src/Converter.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/src/Converter.cpp -o CMakeFiles/converter_lib.dir/src/Converter.cpp.s
 
-CMakeFiles/converter_lib.dir/Converter.cpp.o.requires:
-.PHONY : CMakeFiles/converter_lib.dir/Converter.cpp.o.requires
+CMakeFiles/converter_lib.dir/src/Converter.cpp.o.requires:
+.PHONY : CMakeFiles/converter_lib.dir/src/Converter.cpp.o.requires
 
-CMakeFiles/converter_lib.dir/Converter.cpp.o.provides: CMakeFiles/converter_lib.dir/Converter.cpp.o.requires
-	$(MAKE) -f CMakeFiles/converter_lib.dir/build.make CMakeFiles/converter_lib.dir/Converter.cpp.o.provides.build
-.PHONY : CMakeFiles/converter_lib.dir/Converter.cpp.o.provides
+CMakeFiles/converter_lib.dir/src/Converter.cpp.o.provides: CMakeFiles/converter_lib.dir/src/Converter.cpp.o.requires
+	$(MAKE) -f CMakeFiles/converter_lib.dir/build.make CMakeFiles/converter_lib.dir/src/Converter.cpp.o.provides.build
+.PHONY : CMakeFiles/converter_lib.dir/src/Converter.cpp.o.provides
 
-CMakeFiles/converter_lib.dir/Converter.cpp.o.provides.build: CMakeFiles/converter_lib.dir/Converter.cpp.o
+CMakeFiles/converter_lib.dir/src/Converter.cpp.o.provides.build: CMakeFiles/converter_lib.dir/src/Converter.cpp.o
 
 # Object files for target converter_lib
 converter_lib_OBJECTS = \
-"CMakeFiles/converter_lib.dir/Converter.cpp.o"
+"CMakeFiles/converter_lib.dir/src/Converter.cpp.o"
 
 # External object files for target converter_lib
 converter_lib_EXTERNAL_OBJECTS =
 
-libconverter_lib.a: CMakeFiles/converter_lib.dir/Converter.cpp.o
+libconverter_lib.a: CMakeFiles/converter_lib.dir/src/Converter.cpp.o
 libconverter_lib.a: CMakeFiles/converter_lib.dir/build.make
 libconverter_lib.a: CMakeFiles/converter_lib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libconverter_lib.a"
@@ -90,7 +90,7 @@ libconverter_lib.a: CMakeFiles/converter_lib.dir/link.txt
 CMakeFiles/converter_lib.dir/build: libconverter_lib.a
 .PHONY : CMakeFiles/converter_lib.dir/build
 
-CMakeFiles/converter_lib.dir/requires: CMakeFiles/converter_lib.dir/Converter.cpp.o.requires
+CMakeFiles/converter_lib.dir/requires: CMakeFiles/converter_lib.dir/src/Converter.cpp.o.requires
 .PHONY : CMakeFiles/converter_lib.dir/requires
 
 CMakeFiles/converter_lib.dir/clean:

@@ -186,101 +186,101 @@ gtest_main/fast:
 	$(MAKE) -f lib/gtest-1.6.0/CMakeFiles/gtest_main.dir/build.make lib/gtest-1.6.0/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-Converter.o: Converter.cpp.o
-.PHONY : Converter.o
+lib/mylib/Standard.o: lib/mylib/Standard.cpp.o
+.PHONY : lib/mylib/Standard.o
 
 # target to build an object file
-Converter.cpp.o:
-	$(MAKE) -f CMakeFiles/converter_lib.dir/build.make CMakeFiles/converter_lib.dir/Converter.cpp.o
-.PHONY : Converter.cpp.o
+lib/mylib/Standard.cpp.o:
+	$(MAKE) -f CMakeFiles/standard_lib.dir/build.make CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o
+.PHONY : lib/mylib/Standard.cpp.o
 
-Converter.i: Converter.cpp.i
-.PHONY : Converter.i
+lib/mylib/Standard.i: lib/mylib/Standard.cpp.i
+.PHONY : lib/mylib/Standard.i
 
 # target to preprocess a source file
-Converter.cpp.i:
-	$(MAKE) -f CMakeFiles/converter_lib.dir/build.make CMakeFiles/converter_lib.dir/Converter.cpp.i
-.PHONY : Converter.cpp.i
+lib/mylib/Standard.cpp.i:
+	$(MAKE) -f CMakeFiles/standard_lib.dir/build.make CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.i
+.PHONY : lib/mylib/Standard.cpp.i
 
-Converter.s: Converter.cpp.s
-.PHONY : Converter.s
+lib/mylib/Standard.s: lib/mylib/Standard.cpp.s
+.PHONY : lib/mylib/Standard.s
 
 # target to generate assembly for a file
-Converter.cpp.s:
-	$(MAKE) -f CMakeFiles/converter_lib.dir/build.make CMakeFiles/converter_lib.dir/Converter.cpp.s
-.PHONY : Converter.cpp.s
+lib/mylib/Standard.cpp.s:
+	$(MAKE) -f CMakeFiles/standard_lib.dir/build.make CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.s
+.PHONY : lib/mylib/Standard.cpp.s
 
-ConverterTest.o: ConverterTest.cpp.o
-.PHONY : ConverterTest.o
+src/Converter.o: src/Converter.cpp.o
+.PHONY : src/Converter.o
 
 # target to build an object file
-ConverterTest.cpp.o:
-	$(MAKE) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/ConverterTest.cpp.o
-.PHONY : ConverterTest.cpp.o
+src/Converter.cpp.o:
+	$(MAKE) -f CMakeFiles/converter_lib.dir/build.make CMakeFiles/converter_lib.dir/src/Converter.cpp.o
+.PHONY : src/Converter.cpp.o
 
-ConverterTest.i: ConverterTest.cpp.i
-.PHONY : ConverterTest.i
+src/Converter.i: src/Converter.cpp.i
+.PHONY : src/Converter.i
 
 # target to preprocess a source file
-ConverterTest.cpp.i:
-	$(MAKE) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/ConverterTest.cpp.i
-.PHONY : ConverterTest.cpp.i
+src/Converter.cpp.i:
+	$(MAKE) -f CMakeFiles/converter_lib.dir/build.make CMakeFiles/converter_lib.dir/src/Converter.cpp.i
+.PHONY : src/Converter.cpp.i
 
-ConverterTest.s: ConverterTest.cpp.s
-.PHONY : ConverterTest.s
+src/Converter.s: src/Converter.cpp.s
+.PHONY : src/Converter.s
 
 # target to generate assembly for a file
-ConverterTest.cpp.s:
-	$(MAKE) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/ConverterTest.cpp.s
-.PHONY : ConverterTest.cpp.s
+src/Converter.cpp.s:
+	$(MAKE) -f CMakeFiles/converter_lib.dir/build.make CMakeFiles/converter_lib.dir/src/Converter.cpp.s
+.PHONY : src/Converter.cpp.s
 
-Main.o: Main.cpp.o
-.PHONY : Main.o
+src/Main.o: src/Main.cpp.o
+.PHONY : src/Main.o
 
 # target to build an object file
-Main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Main.cpp.o
-.PHONY : Main.cpp.o
+src/Main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Main.cpp.o
+.PHONY : src/Main.cpp.o
 
-Main.i: Main.cpp.i
-.PHONY : Main.i
+src/Main.i: src/Main.cpp.i
+.PHONY : src/Main.i
 
 # target to preprocess a source file
-Main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Main.cpp.i
-.PHONY : Main.cpp.i
+src/Main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Main.cpp.i
+.PHONY : src/Main.cpp.i
 
-Main.s: Main.cpp.s
-.PHONY : Main.s
+src/Main.s: src/Main.cpp.s
+.PHONY : src/Main.s
 
 # target to generate assembly for a file
-Main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Main.cpp.s
-.PHONY : Main.cpp.s
+src/Main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Main.cpp.s
+.PHONY : src/Main.cpp.s
 
-Standard.o: Standard.cpp.o
-.PHONY : Standard.o
+test/ConverterTest.o: test/ConverterTest.cpp.o
+.PHONY : test/ConverterTest.o
 
 # target to build an object file
-Standard.cpp.o:
-	$(MAKE) -f CMakeFiles/standard_lib.dir/build.make CMakeFiles/standard_lib.dir/Standard.cpp.o
-.PHONY : Standard.cpp.o
+test/ConverterTest.cpp.o:
+	$(MAKE) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.o
+.PHONY : test/ConverterTest.cpp.o
 
-Standard.i: Standard.cpp.i
-.PHONY : Standard.i
+test/ConverterTest.i: test/ConverterTest.cpp.i
+.PHONY : test/ConverterTest.i
 
 # target to preprocess a source file
-Standard.cpp.i:
-	$(MAKE) -f CMakeFiles/standard_lib.dir/build.make CMakeFiles/standard_lib.dir/Standard.cpp.i
-.PHONY : Standard.cpp.i
+test/ConverterTest.cpp.i:
+	$(MAKE) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.i
+.PHONY : test/ConverterTest.cpp.i
 
-Standard.s: Standard.cpp.s
-.PHONY : Standard.s
+test/ConverterTest.s: test/ConverterTest.cpp.s
+.PHONY : test/ConverterTest.s
 
 # target to generate assembly for a file
-Standard.cpp.s:
-	$(MAKE) -f CMakeFiles/standard_lib.dir/build.make CMakeFiles/standard_lib.dir/Standard.cpp.s
-.PHONY : Standard.cpp.s
+test/ConverterTest.cpp.s:
+	$(MAKE) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.s
+.PHONY : test/ConverterTest.cpp.s
 
 # Help Target
 help:
@@ -297,18 +297,18 @@ help:
 	@echo "... test"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... Converter.o"
-	@echo "... Converter.i"
-	@echo "... Converter.s"
-	@echo "... ConverterTest.o"
-	@echo "... ConverterTest.i"
-	@echo "... ConverterTest.s"
-	@echo "... Main.o"
-	@echo "... Main.i"
-	@echo "... Main.s"
-	@echo "... Standard.o"
-	@echo "... Standard.i"
-	@echo "... Standard.s"
+	@echo "... lib/mylib/Standard.o"
+	@echo "... lib/mylib/Standard.i"
+	@echo "... lib/mylib/Standard.s"
+	@echo "... src/Converter.o"
+	@echo "... src/Converter.i"
+	@echo "... src/Converter.s"
+	@echo "... src/Main.o"
+	@echo "... src/Main.i"
+	@echo "... src/Main.s"
+	@echo "... test/ConverterTest.o"
+	@echo "... test/ConverterTest.i"
+	@echo "... test/ConverterTest.s"
 .PHONY : help
 
 

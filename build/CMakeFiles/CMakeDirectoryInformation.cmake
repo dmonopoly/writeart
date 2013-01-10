@@ -10,6 +10,9 @@ SET(CMAKE_FORCE_UNIX_PATHS 1)
 
 # The C and CXX include file search paths:
 SET(CMAKE_C_INCLUDE_PATH
+  "../src"
+  "../lib/mylib"
+  "../test"
   "../lib/gtest-1.6.0/include"
   "../lib/gtest-1.6.0"
   )

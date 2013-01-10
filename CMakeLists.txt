@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 
 # Options
-option(TEST "Build all tests." OFF) # makes boolean 'TEST' available
+option(TEST "Build all tests." OFF) # makes boolean 'TEST' available. turn on with cmake .. -DTEST=ON
 
 # Make PROJECT_SOURCE_DIR, PROJECT_BINARY_DIR, and PROJECT_NAME available
 set(PROJECT_NAME MyProject)
@@ -15,21 +15,31 @@ set(CMAKE_CXX_FLAGS "-g") # -Wall")
 ################################
 # Normal Libraries & Executables
 ################################
-add_library(standard_lib Standard.cpp Standard.h)
-add_library(converter_lib Converter.cpp Converter.h)
-add_executable(main Main.cpp)
+include_directories(src)
+include_directories(lib/mylib) # tell cmake to look in lib/mylib for source files, since we use lib/mylib/Standard.cpp
 
+# Create libraries
+add_library(standard_lib lib/mylib/Standard.cpp lib/mylib/Standard.h)
+add_library(converter_lib src/Converter.cpp src/Converter.h)
+
+# Create executables
+add_executable(main src/Main.cpp)
+
+# Link executables to libraries
 target_link_libraries(main standard_lib converter_lib)
 
 ################################
 # Testing
 ################################
 if (TEST)
+	include_directories(test) # open the door to looking for source files in test/
+
+	##############
+	# gtest prep
+	##############
 	# This adds another subdirectory, which has project(gtest)
-	add_subdirectory(lib/gtest-1.6.0)
-
+	add_subdirectory(lib/gtest-1.6.0) # open the door to using the CMakeLists.txt in this folder
 	enable_testing()
-
 	# Include the gtest library
 	# gtest_SOURCE_DIR is available due to project(gtest) above
 	include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
@@ -37,10 +47,10 @@ if (TEST)
 	##############
 	# Unit Tests
 	##############
-	# Naming
+	# Naming of test file
 	set(UNIT_TESTS runUnitTests)
 
-	add_executable(${UNIT_TESTS} ConverterTest.cpp)
+	add_executable(${UNIT_TESTS} test/ConverterTest.cpp)
 
 	# standard linking to gtest stuff
 	target_link_libraries(${UNIT_TESTS} gtest gtest_main)

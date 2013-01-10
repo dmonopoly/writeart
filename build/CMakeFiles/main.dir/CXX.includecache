@@ -8,19 +8,7 @@
 
 ../lib/gtest-1.6.0/include/gtest/gtest_prod.h
 
-/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Converter.h
-gtest/gtest_prod.h
-/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/gtest/gtest_prod.h
-Standard.h
-/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Standard.h
-
-/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Main.cpp
-Standard.h
-/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Standard.h
-Converter.h
-/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Converter.h
-
-/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Standard.h
+../lib/mylib/Standard.h
 iostream
 -
 stdio.h
@@ -35,4 +23,16 @@ vector
 -
 algorithm
 -
+
+/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/src/Converter.h
+gtest/gtest_prod.h
+/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/src/gtest/gtest_prod.h
+Standard.h
+/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/src/Standard.h
+
+/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/src/Main.cpp
+Standard.h
+/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/src/Standard.h
+Converter.h
+/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/src/Converter.h
 

@@ -24,6 +24,10 @@ Building the project from scratch:
 	make
 
 
-If you want to run the tests too, do `cmake .. -DTEST=ON` and then `make`.  
-`make test` would run all tests, and `./runUnitTests` would run the specific test file (there's only one).
+If you want to run the tests too, make sure to have done this (to turn the boolean for testing on), also in build/: 
+
+	cmake .. -DTEST=ON
+	make
+
+The command `make test` would run all tests, and `./runUnitTests` would run the specific test file (there's only one).
 

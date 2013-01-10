@@ -49,37 +49,37 @@ include CMakeFiles/standard_lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/standard_lib.dir/flags.make
 
-CMakeFiles/standard_lib.dir/Standard.cpp.o: CMakeFiles/standard_lib.dir/flags.make
-CMakeFiles/standard_lib.dir/Standard.cpp.o: ../Standard.cpp
+CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o: CMakeFiles/standard_lib.dir/flags.make
+CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o: ../lib/mylib/Standard.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/standard_lib.dir/Standard.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standard_lib.dir/Standard.cpp.o -c /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Standard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o -c /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/lib/mylib/Standard.cpp
 
-CMakeFiles/standard_lib.dir/Standard.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standard_lib.dir/Standard.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Standard.cpp > CMakeFiles/standard_lib.dir/Standard.cpp.i
+CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/lib/mylib/Standard.cpp > CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.i
 
-CMakeFiles/standard_lib.dir/Standard.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standard_lib.dir/Standard.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Standard.cpp -o CMakeFiles/standard_lib.dir/Standard.cpp.s
+CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/lib/mylib/Standard.cpp -o CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.s
 
-CMakeFiles/standard_lib.dir/Standard.cpp.o.requires:
-.PHONY : CMakeFiles/standard_lib.dir/Standard.cpp.o.requires
+CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o.requires:
+.PHONY : CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o.requires
 
-CMakeFiles/standard_lib.dir/Standard.cpp.o.provides: CMakeFiles/standard_lib.dir/Standard.cpp.o.requires
-	$(MAKE) -f CMakeFiles/standard_lib.dir/build.make CMakeFiles/standard_lib.dir/Standard.cpp.o.provides.build
-.PHONY : CMakeFiles/standard_lib.dir/Standard.cpp.o.provides
+CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o.provides: CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o.requires
+	$(MAKE) -f CMakeFiles/standard_lib.dir/build.make CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o.provides.build
+.PHONY : CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o.provides
 
-CMakeFiles/standard_lib.dir/Standard.cpp.o.provides.build: CMakeFiles/standard_lib.dir/Standard.cpp.o
+CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o.provides.build: CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o
 
 # Object files for target standard_lib
 standard_lib_OBJECTS = \
-"CMakeFiles/standard_lib.dir/Standard.cpp.o"
+"CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o"
 
 # External object files for target standard_lib
 standard_lib_EXTERNAL_OBJECTS =
 
-libstandard_lib.a: CMakeFiles/standard_lib.dir/Standard.cpp.o
+libstandard_lib.a: CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o
 libstandard_lib.a: CMakeFiles/standard_lib.dir/build.make
 libstandard_lib.a: CMakeFiles/standard_lib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libstandard_lib.a"
@@ -90,7 +90,7 @@ libstandard_lib.a: CMakeFiles/standard_lib.dir/link.txt
 CMakeFiles/standard_lib.dir/build: libstandard_lib.a
 .PHONY : CMakeFiles/standard_lib.dir/build
 
-CMakeFiles/standard_lib.dir/requires: CMakeFiles/standard_lib.dir/Standard.cpp.o.requires
+CMakeFiles/standard_lib.dir/requires: CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o.requires
 .PHONY : CMakeFiles/standard_lib.dir/requires
 
 CMakeFiles/standard_lib.dir/clean:

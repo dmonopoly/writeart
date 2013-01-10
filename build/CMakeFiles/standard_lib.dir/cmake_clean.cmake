@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/standard_lib.dir/Standard.cpp.o"
+  "CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o"
   "libstandard_lib.pdb"
   "libstandard_lib.a"
 )

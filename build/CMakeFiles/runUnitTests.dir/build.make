@@ -49,37 +49,37 @@ include CMakeFiles/runUnitTests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/runUnitTests.dir/flags.make
 
-CMakeFiles/runUnitTests.dir/ConverterTest.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
-CMakeFiles/runUnitTests.dir/ConverterTest.cpp.o: ../ConverterTest.cpp
+CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
+CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.o: ../test/ConverterTest.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/runUnitTests.dir/ConverterTest.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/runUnitTests.dir/ConverterTest.cpp.o -c /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/ConverterTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.o -c /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/test/ConverterTest.cpp
 
-CMakeFiles/runUnitTests.dir/ConverterTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/ConverterTest.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/ConverterTest.cpp > CMakeFiles/runUnitTests.dir/ConverterTest.cpp.i
+CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/test/ConverterTest.cpp > CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.i
 
-CMakeFiles/runUnitTests.dir/ConverterTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/ConverterTest.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/ConverterTest.cpp -o CMakeFiles/runUnitTests.dir/ConverterTest.cpp.s
+CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/test/ConverterTest.cpp -o CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.s
 
-CMakeFiles/runUnitTests.dir/ConverterTest.cpp.o.requires:
-.PHONY : CMakeFiles/runUnitTests.dir/ConverterTest.cpp.o.requires
+CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.o.requires:
+.PHONY : CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.o.requires
 
-CMakeFiles/runUnitTests.dir/ConverterTest.cpp.o.provides: CMakeFiles/runUnitTests.dir/ConverterTest.cpp.o.requires
-	$(MAKE) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/ConverterTest.cpp.o.provides.build
-.PHONY : CMakeFiles/runUnitTests.dir/ConverterTest.cpp.o.provides
+CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.o.provides: CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.o.requires
+	$(MAKE) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.o.provides.build
+.PHONY : CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.o.provides
 
-CMakeFiles/runUnitTests.dir/ConverterTest.cpp.o.provides.build: CMakeFiles/runUnitTests.dir/ConverterTest.cpp.o
+CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.o.provides.build: CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.o
 
 # Object files for target runUnitTests
 runUnitTests_OBJECTS = \
-"CMakeFiles/runUnitTests.dir/ConverterTest.cpp.o"
+"CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.o"
 
 # External object files for target runUnitTests
 runUnitTests_EXTERNAL_OBJECTS =
 
-runUnitTests: CMakeFiles/runUnitTests.dir/ConverterTest.cpp.o
+runUnitTests: CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.o
 runUnitTests: lib/gtest-1.6.0/libgtest.a
 runUnitTests: lib/gtest-1.6.0/libgtest_main.a
 runUnitTests: libstandard_lib.a
@@ -94,7 +94,7 @@ runUnitTests: CMakeFiles/runUnitTests.dir/link.txt
 CMakeFiles/runUnitTests.dir/build: runUnitTests
 .PHONY : CMakeFiles/runUnitTests.dir/build
 
-CMakeFiles/runUnitTests.dir/requires: CMakeFiles/runUnitTests.dir/ConverterTest.cpp.o.requires
+CMakeFiles/runUnitTests.dir/requires: CMakeFiles/runUnitTests.dir/test/ConverterTest.cpp.o.requires
 .PHONY : CMakeFiles/runUnitTests.dir/requires
 
 CMakeFiles/runUnitTests.dir/clean:

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Standard.cpp
+/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/lib/mylib/Standard.cpp
 Standard.h
-/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Standard.h
+/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/lib/mylib/Standard.h
 
-/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Standard.h
+/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/lib/mylib/Standard.h
 iostream
 -
 stdio.h

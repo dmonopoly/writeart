@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Standard.cpp" "/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/build/CMakeFiles/standard_lib.dir/Standard.cpp.o"
+  "/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/lib/mylib/Standard.cpp" "/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/build/CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

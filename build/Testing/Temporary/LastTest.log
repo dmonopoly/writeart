@@ -1,0 +1,36 @@
+Start testing: Jan 09 22:34 EST
+----------------------------------------------------------
+1/1 Testing: myUnitTests
+1/1 Test: myUnitTests
+Command: "/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/build/runUnitTests"
+Directory: /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/build
+"myUnitTests" start time: Jan 09 22:34 EST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+[==========] Running 3 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 2 tests from ConverterTest
+[ RUN      ] ConverterTest.AlterTest
+[       OK ] ConverterTest.AlterTest (0 ms)
+[ RUN      ] ConverterTest.IntExtraction
+[       OK ] ConverterTest.IntExtraction (0 ms)
+[----------] 2 tests from ConverterTest (0 ms total)
+
+[----------] 1 test from SpecificConverterTest
+[ RUN      ] SpecificConverterTest.Surround
+[       OK ] SpecificConverterTest.Surround (0 ms)
+[----------] 1 test from SpecificConverterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 2 test cases ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myUnitTests" end time: Jan 09 22:34 EST
+"myUnitTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 09 22:34 EST

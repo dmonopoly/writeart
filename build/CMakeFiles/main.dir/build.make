@@ -49,37 +49,37 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/Main.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/Main.cpp.o: ../Main.cpp
+CMakeFiles/main.dir/src/Main.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Main.cpp.o: ../src/Main.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/Main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Main.cpp.o -c /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/src/Main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/Main.cpp.o -c /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/src/Main.cpp
 
-CMakeFiles/main.dir/Main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Main.cpp > CMakeFiles/main.dir/Main.cpp.i
+CMakeFiles/main.dir/src/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/src/Main.cpp > CMakeFiles/main.dir/src/Main.cpp.i
 
-CMakeFiles/main.dir/Main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/Main.cpp -o CMakeFiles/main.dir/Main.cpp.s
+CMakeFiles/main.dir/src/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/src/Main.cpp -o CMakeFiles/main.dir/src/Main.cpp.s
 
-CMakeFiles/main.dir/Main.cpp.o.requires:
-.PHONY : CMakeFiles/main.dir/Main.cpp.o.requires
+CMakeFiles/main.dir/src/Main.cpp.o.requires:
+.PHONY : CMakeFiles/main.dir/src/Main.cpp.o.requires
 
-CMakeFiles/main.dir/Main.cpp.o.provides: CMakeFiles/main.dir/Main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Main.cpp.o.provides.build
-.PHONY : CMakeFiles/main.dir/Main.cpp.o.provides
+CMakeFiles/main.dir/src/Main.cpp.o.provides: CMakeFiles/main.dir/src/Main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Main.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/src/Main.cpp.o.provides
 
-CMakeFiles/main.dir/Main.cpp.o.provides.build: CMakeFiles/main.dir/Main.cpp.o
+CMakeFiles/main.dir/src/Main.cpp.o.provides.build: CMakeFiles/main.dir/src/Main.cpp.o
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/Main.cpp.o"
+"CMakeFiles/main.dir/src/Main.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/Main.cpp.o
+main: CMakeFiles/main.dir/src/Main.cpp.o
 main: libstandard_lib.a
 main: libconverter_lib.a
 main: CMakeFiles/main.dir/build.make
@@ -91,7 +91,7 @@ main: CMakeFiles/main.dir/link.txt
 CMakeFiles/main.dir/build: main
 .PHONY : CMakeFiles/main.dir/build
 
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/Main.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/Main.cpp.o.requires
 .PHONY : CMakeFiles/main.dir/requires
 
 CMakeFiles/main.dir/clean:
