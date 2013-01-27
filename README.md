@@ -5,7 +5,7 @@ Written in C++ with some testing help from Google Test (gtest).
 
 # Try it out
 
-## Quick
+## Quick (for Mac OS only)
 First **edit build/testfile.txt**. Then:
 
 	cd build
@@ -16,7 +16,7 @@ Finally, check out testfile.txt.html and see it in a browser.
 ## More in depth
 You can delete the build/ directory and recreate it from scratch.
 
-Building the project from scratch:
+Building the project from scratch (Mac only):
 
 	mkdir build
 	cd build
