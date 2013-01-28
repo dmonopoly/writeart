@@ -13,6 +13,7 @@ using namespace std;
 void begin();
 void end();
 
+// In progress - for command line stuff
 // int main(int argc, char* argv[]) { // or char** argv
 //     try {
 //         if (argc == 1) {
@@ -33,6 +34,7 @@ void end();
 //     }
 // }
 
+// Working for testfile.txt
 int main() {// (int argc, char* argv[]) // or char** argv
     begin();
     Converter conv;

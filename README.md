@@ -5,24 +5,12 @@ Written in C++ with some testing help from Google Test (gtest).
 
 # Try it out
 
-## Quick
-First **edit build/testfile.txt**. Then:
-
-	cd build
-	./main
-
-Finally, check out testfile.txt.html and see it in a browser.
-
-## More in depth
-You can delete the build/ directory and recreate it from scratch.
-
-Building the project from scratch:
+Build the project:
 
 	mkdir build
 	cd build
 	cmake ..
 	make
-
 
 If you want to run the tests too, make sure to have done this (to turn the boolean for testing on), also in build/: 
 
@@ -31,3 +19,15 @@ If you want to run the tests too, make sure to have done this (to turn the boole
 
 The command `make test` would run all tests, and `./runUnitTests` would run the specific test file (there's only one).
 
+Now, to run stuff (still in build/):
+
+First **create testfile.txt** and give it something like below:
+
+	I believe22 the world can be a better26 place.26
+	The world can be different.30
+
+Finally:
+
+	./main
+
+And open the generated testfile.txt.html in the browser.

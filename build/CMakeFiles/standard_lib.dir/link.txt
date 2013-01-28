@@ -1,2 +1,0 @@
-/usr/bin/ar cr libstandard_lib.a  CMakeFiles/standard_lib.dir/lib/mylib/Standard.cpp.o
-/usr/bin/ranlib libstandard_lib.a

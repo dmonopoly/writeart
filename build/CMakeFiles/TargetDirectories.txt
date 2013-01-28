@@ -1,6 +1,0 @@
-/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/build/CMakeFiles/converter_lib.dir
-/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/build/lib/gtest-1.6.0/CMakeFiles/gtest.dir
-/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/build/lib/gtest-1.6.0/CMakeFiles/gtest_main.dir
-/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/build/CMakeFiles/main.dir
-/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/build/CMakeFiles/runUnitTests.dir
-/Users/daze/Documents/Workspace/EclipseProjectsC++/WriteArt/build/CMakeFiles/standard_lib.dir
