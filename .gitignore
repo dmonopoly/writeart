@@ -5,3 +5,4 @@
 *.dSYM
 Debug/*
 build/*
+Release/*
