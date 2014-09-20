@@ -21,7 +21,7 @@ The command `make test` would run all tests, and `./runUnitTests` would run the 
 
 Now, to run stuff (still in build/):
 
-First **create testfile.txt** and give it something like below:
+First **create testfile.txt** (in build/) and give it something like below:
 
 	I believe22 the world can be a better26 place.26
 	The world can be different.30

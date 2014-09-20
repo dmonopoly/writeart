@@ -20,7 +20,7 @@ void end();
 //             string filename = argv[1]; // argv[0] is the command used to execute the c++, like "./a.out"
 //             Converter conv;
 //             try {
-//                 conv.convert(filename);
+//                 conv.ConvertFromFile(filename);
 //                 cout << "Converted" << endl;
 //             } catch (exception &e) {
 //              cerr << "Error: " << e.what() << endl;
@@ -39,7 +39,7 @@ int main() {// (int argc, char* argv[]) // or char** argv
     begin();
     Converter conv;
     try {
-    	conv.convert("testfile.txt");
+    	conv.ConvertFromFile("testfile.txt");
     	cout << "Converted" << endl;
     } catch (exception& e) {
     	cerr << "Error: " << e.what() << endl;
